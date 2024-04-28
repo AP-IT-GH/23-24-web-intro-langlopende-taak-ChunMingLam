@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link href="./css/style.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="./js/mapScript2.js" defer></script>
+  </head>
+
+  <body class="p-3 m-0 border-0 bd-example">
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="assets/logo.png"
+            alt="netwerken"
+            height="110"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="diensten.html">Diensten</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Topic's
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="uitleg.html">Wat is een netwerk?</a></li>
+                <li><a class="dropdown-item" href="conponenten.html">Conponenten</a></li>
+                <li><a class="dropdown-item" href="protocollen.html">Protocollen</a></li>
+                <li><a class="dropdown-item" href="beveiliging.html">Beveiliging</a></li>
+                <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
+                <li><a class="dropdown-item" href="extra.html">Extra</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <header class="row m-5">
+      <h1 class="col display-2 koffiebruin text-center">
+        Extra tips
+      </h1>
+    </header>
+
+    <div class="container">
+        <main class="row col-md-12 pe-3">
+
+          <article class="col-12 col-sm-6 col-md-7 ">
+            <h2 class="text-uppercase fs-6 fw-bolder pt-3">Praktische tips</h2>
+            <p>
+              Hier zijn praktische tips voor het beheren en beveiligen van netwerken:
+            </p>
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item color_bg">Implementeer sterke wachtwoorden: Gebruik unieke, complexe wachtwoorden voor alle apparaten en accounts in het netwerk. Gebruik wachtwoordbeheerders om wachtwoorden veilig op te slaan en te beheren.</li>
+              <li class="list-group-item color_bg">Houd software up-to-date: Zorg ervoor dat alle apparaten en software in het netwerk regelmatig worden bijgewerkt met de nieuwste beveiligingspatches en updates om bekende kwetsbaarheden te verhelpen.</li>
+              <li class="list-group-item color_bg">Gebruik firewalls: Installeer en configureer firewalls om het netwerk te beschermen tegen ongeautoriseerde toegang en kwaadaardig verkeer. Zowel hardwarematige als softwarematige firewalls kunnen worden gebruikt.</li>
+              <li class="list-group-item color_bg">Segmenteer het netwerk: Verdeel het netwerk in verschillende segmenten of VLAN's (Virtual Local Area Networks) om de toegang tot gevoelige informatie te beperken en de impact van beveiligingsincidenten te minimaliseren.</li>
+              <li class="list-group-item color_bg">Implementeer VPN's: Gebruik Virtual Private Networks (VPN's) om een veilige, versleutelde verbinding te bieden voor externe toegang tot het netwerk, waardoor gevoelige gegevens worden beschermd tegen afluisteren en onderschepping.</li>
+              <li class="list-group-item color_bg">Monitor netwerkactiviteit: Gebruik netwerkmonitoringtools om verdachte activiteiten en anomalieën te detecteren die kunnen wijzen op een beveiligingsincident. Houd logboeken bij van netwerkgebeurtenissen voor analyse en naleving.</li>
+              <li class="list-group-item color_bg">Gebruik tweefactorauthenticatie: Voeg een extra beveiligingslaag toe door tweefactorauthenticatie te gebruiken voor toegang tot netwerkbronnen. Dit vereist naast een wachtwoord ook een extra verificatiemethode, zoals een sms-code of biometrische gegevens.</li>
+              <li class="list-group-item color_bg">Voer regelmatig back-ups uit: Maak regelmatig back-ups van belangrijke gegevens en sla deze offsite op om te beschermen tegen gegevensverlies door ransomware, hardwarestoringen of andere incidenten.</li>
+              <li class="list-group-item color_bg">Train gebruikers: Geef training en voorlichting aan gebruikers over de risico's van phishing, malware en andere cyberdreigingen. Moedig goede cyberhygiënepraktijken aan, zoals het vermijden van verdachte links en het melden van verdachte activiteiten.</li>
+              <li class="list-group-item color_bg">Stel een responsplan voor incidenten op: Ontwikkel een gedetailleerd incidentresponsplan om snel te kunnen reageren op beveiligingsincidenten. Definieer rollen en verantwoordelijkheden, en voer regelmatig oefeningen uit om de responsvaardigheden te testen.</li>
+            </ol>
+            <br>
+            <p>
+              Door deze praktische tips te implementeren, kun je de beveiliging van je netwerk versterken en de risico's van cyberaanvallen en gegevensverlies verminderen. Het is belangrijk om een proactieve en gelaagde aanpak te hanteren om een robuuste netwerkbeveiliging te waarborgen.
+            </p>
+            </a>
+          </article>
+
+
+          <article class="col-12 col-sm-6 col-md-5 ">
+            <figure>
+              <img
+                src="./assets/foto_extra.jpg"
+                class="img-fluid"
+                alt="Tips"
+                title="Tips"
+              />
+              <figcaption class="h6 small mt-2">
+                &copy; Tips
+              </figcaption>
+            </figure>
+          </a>
+        </article>
+
+        
+          <article class="col-12 col-sm-6 col-md-7 ">
+            <h2 class="text-uppercase fs-6 fw-bolder pt-3">Hulp nodig?</h2>
+            <p>
+              Als je vermoedt dat je gehackt bent of dat er een beveiligingsincident heeft plaatsgevonden, zijn er verschillende stappen die je kunt nemen om het probleem aan te pakken en verdere schade te beperken:
+            </p>
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item color_bg">Interne IT-ondersteuning: Als je in een bedrijfsomgeving werkt, neem dan onmiddellijk contact op met je interne IT-afdeling of helpdesk. Zij kunnen het incident onderzoeken, maatregelen nemen om verdere schade te voorkomen en de nodige herstelwerkzaamheden uitvoeren.</li>
+              <li class="list-group-item color_bg">Externe beveiligingsdienstverleners: Als je geen interne IT-ondersteuning hebt of als het incident ernstig is, kun je externe beveiligingsdienstverleners raadplegen. Deze bedrijven hebben gespecialiseerde kennis en ervaring op het gebied van cybersecurity en kunnen je helpen bij het onderzoeken en oplossen van het incident.</li>
+              <li class="list-group-item color_bg">Politie en wetshandhaving: Als het beveiligingsincident ernstig is en mogelijk een strafbaar feit betreft, zoals hacking of datalekken, overweeg dan om contact op te nemen met de lokale politie of wetshandhavingsautoriteiten. Zij kunnen het incident onderzoeken en indien nodig verdere actie ondernemen.</li>
+              <li class="list-group-item color_bg">Beveiligingsautoriteiten en instanties: Afhankelijk van de aard van het incident en je locatie, zijn er mogelijk ook gespecialiseerde beveiligingsautoriteiten en instanties die kunnen helpen bij het onderzoeken van cybersecurity-incidenten en het bieden van ondersteuning en advies.</li>
+            </ol>
+            <br>
+            <p>
+              Het is belangrijk om snel te reageren op beveiligingsincidenten en samen te werken met de juiste instanties en professionals om de situatie aan te pakken en verdere schade te voorkomen. Daarnaast is het belangrijk om een plan voor incidentrespons te hebben, zodat je weet welke stappen je moet nemen in geval van een beveiligingsincident.
+            </p>
+            </a>
+          </article>
+
+
+          <section id="map" class="row">
+            <div id="apMap" class="col-12 mb-3"></div>
+          </section>
+
+
+
+          <hr />
+        </main>
+    </div>
+
+    <footer class="container-fluid text-center h6 small p-4">
+
+      <ul class="list-inline socials">
+        <li class="list-inline-item">
+          <a href="https://www.youtube.com" target="_blank">
+            <i class="bi bi-youtube koffiebruin fs-3"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="bi bi-instagram koffiebruin fs-3"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="bi bi-facebook koffiebruin fs-3"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://twitter.com/" target="_blank">
+            <i class="bi bi-twitter koffiebruin fs-3"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
