@@ -97,7 +97,7 @@
 
     <header class="row m-5">
       <h1 class="col display-2 koffiebruin text-center">
-        Map
+        Contact
       </h1>
     </header>
 
@@ -111,18 +111,24 @@
 
           <form id="contact-form">
             <div class="mb-3">
-              <label for="name" class="form-label">Name <span>*</span></label>
+              <label for="name" class="form-label">Naam <span>*</span></label>
               <input type="text" class="form-control" id="name" required>
             </div>
             <div class="mb-3">
-              <label for="email" class="form-label">Email <span>*</span></label>
+              <label for="email" class="form-label">E-mail <span>*</span></label>
               <input type="email" class="form-control" id="email" required>
             </div>
+            <label for="contact" class="form-label">Wie wil je contacteren?</label>
+            <select class="form-select" aria-label="Default select example">
+              <option value="Admin">Admin</option>
+              <option value="Webdesigner">Webdesigner</option>
+            </select>
+            <br>
             <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
+              <label for="message" class="form-label">Bericht</label>
               <textarea class="form-control" id="message" rows="3" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Verstuur</button>
           </form>
 
           <section id="contact" class="row">
@@ -132,7 +138,7 @@
                 <h2 class="text-uppercase fs-6 fw-bolder pt-3">Admin</h2>
                 <ul>
                   <li>E-mail: Admin135@hotmail.com</li>
-                  <li>Telefoon: 0488 23 45 67</li>
+                  <li>Telefoon: +32 488 23 45 67</li>
                 </ul>
                 </a>
               </article>
@@ -141,7 +147,9 @@
                 <h2 class="text-uppercase fs-6 fw-bolder pt-3">Webdesigner</h2>
                 <ul>
                   <li>E-mail: s138807@ap.be</li>
-                  <li>Telefoon: 0488 02 91 86</li>
+                  <li>Naam: Chun Ming Lam</li>
+                  <li>Groep: G_1SNB_H</li>
+                  <li>Telefoon: +32 488 02 91 86</li>
                 </ul>
                 </a>
               </article>
@@ -152,27 +160,44 @@
       </div>
     </div>
 
-    <footer class="container-fluid text-center h6 small p-4">
+    <footer class="container container-fluid text-center h5 small p-4">
+      <h2 class="text-uppercase fs-4 fw-bolder pt-3">contact</h2>
+      <div class="row">
 
+      <article class="col-12 col-sm-6 col-md-6">
+        <p class="fs-4">Admin</p>
+        <p>E-mail: <a href="#">Admin135@hotmail.com</a><br>
+        telefoon: +32 488 45 67 89</p>
+      </article>
+
+      <article class="col-12 col-sm-6 col-md-6">
+        <p class="fs-4">Webdesigner</p>
+          <p>E-mail: <a href="#">s138807@ap.be</a><br>
+          telefoon: +32 488 45 67 89<br>
+          Naam: Chun Ming Lam<br>
+          Groep: G_1SNB_H
+        </p>
+      </article>
+    </div>
       <ul class="list-inline socials">
         <li class="list-inline-item">
           <a href="https://www.youtube.com" target="_blank">
-            <i class="bi bi-youtube koffiebruin fs-3"></i>
+            <i class="bi bi-youtube fs-3"></i>
           </a>
         </li>
         <li class="list-inline-item">
           <a href="https://www.instagram.com" target="_blank">
-            <i class="bi bi-instagram koffiebruin fs-3"></i>
+            <i class="bi bi-instagram fs-3"></i>
           </a>
         </li>
         <li class="list-inline-item">
           <a href="https://www.facebook.com" target="_blank">
-            <i class="bi bi-facebook koffiebruin fs-3"></i>
+            <i class="bi bi-facebook fs-3"></i>
           </a>
         </li>
         <li class="list-inline-item">
           <a href="https://twitter.com/" target="_blank">
-            <i class="bi bi-twitter koffiebruin fs-3"></i>
+            <i class="bi bi-twitter fs-3"></i>
           </a>
         </li>
       </ul>

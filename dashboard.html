@@ -27,6 +27,15 @@
     ></script>
 
     <link rel="stylesheet" href="css/style.css" />
+
+    <script src="./js/apiScript.js" defer></script>
+
+    <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+  <script src="./js/mapScript3.js" defer></script>
   </head>
   <body class="p-3 m-0 border-0 bd-example">
     <nav class="navbar navbar-expand-md">
@@ -85,37 +94,55 @@
       </div>
     </nav>
 
-    <hr>
+      <header>
+        <h1>Public IP Address</h1>
+      </header>
+  
+      <main>
 
-    <header>
-      <h1>Geen dashboard sorry</h1>
-    </header>
+        <div id="ip-address"></div>
+        <div id="city"></div>
+        <div id="region"></div>
+      </main>
 
-    <main>
+      <footer class="container container-fluid text-center h5 small p-4">
+        <h2 class="text-uppercase fs-4 fw-bolder pt-3">contact</h2>
+        <div class="row">
 
-    </main>
+        <article class="col-12 col-sm-6 col-md-6">
+          <p class="fs-4">Admin</p>
+          <p>E-mail: <a href="#">Admin135@hotmail.com</a><br>
+          telefoon: +32 488 45 67 89</p>
+        </article>
 
-
-      <footer class="container-fluid text-center h6 small p-4">
+        <article class="col-12 col-sm-6 col-md-6">
+          <p class="fs-4">Webdesigner</p>
+            <p>E-mail: <a href="#">s138807@ap.be</a><br>
+            telefoon: +32 488 45 67 89<br>
+            Naam: Chun Ming Lam<br>
+            Groep: G_1SNB_H
+          </p>
+        </article>
+      </div>
         <ul class="list-inline socials">
           <li class="list-inline-item">
             <a href="https://www.youtube.com" target="_blank">
-              <i class="bi bi-youtube koffiebruin fs-3"></i>
+              <i class="bi bi-youtube fs-3"></i>
             </a>
           </li>
           <li class="list-inline-item">
             <a href="https://www.instagram.com" target="_blank">
-              <i class="bi bi-instagram koffiebruin fs-3"></i>
+              <i class="bi bi-instagram fs-3"></i>
             </a>
           </li>
           <li class="list-inline-item">
             <a href="https://www.facebook.com" target="_blank">
-              <i class="bi bi-facebook koffiebruin fs-3"></i>
+              <i class="bi bi-facebook fs-3"></i>
             </a>
           </li>
           <li class="list-inline-item">
             <a href="https://twitter.com/" target="_blank">
-              <i class="bi bi-twitter koffiebruin fs-3"></i>
+              <i class="bi bi-twitter fs-3"></i>
             </a>
           </li>
         </ul>
